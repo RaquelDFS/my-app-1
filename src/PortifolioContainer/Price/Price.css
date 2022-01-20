@@ -1,0 +1,127 @@
+.conteiner-price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 10%;
+    margin-bottom: 100px;
+    min-height: fit-content;
+    padding-top: 200px;
+    background-image: linear-gradient(white,rgba(230, 246, 250, 1) );
+}
+    #group {
+            position: relative;
+            border: 3px solid rgba(99, 96, 228, 0.53);
+            background-color: rgba(255, 255, 255, 0);
+            border-radius: 5px;
+            margin-bottom: 10rem;
+            width: 230px;
+        }
+        .stch-container{
+            margin-top: -40px;
+        }
+        
+        .switch {
+            display: flex;
+            justify-content: space-around;
+            line-height: 50px;
+            position: relative;
+            border: none;
+            font-family: 'poppins';
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+            height: 50px;
+        }
+        
+        
+        
+        .switch input {
+            position: absolute;
+            opacity: 0;
+        }
+        
+        
+        .switch label {
+            position: relative;
+            z-index: 2;
+            float: left;
+            text-align: center;
+            color: rgba(99, 96, 228, 0.53);
+            cursor: pointer;
+            transition: all .3s ease-out;
+            padding: 0 30px;
+        }
+        
+        .switch input:checked + label {
+            color: #ffffff;
+            background-color: rgba(99, 96, 228, 0.53);
+        }
+        
+        .switch input:focus + label {
+            outline: none;
+        }
+        
+    .sessao-price-tag{ 
+        display: flex;
+        max-width: 980px;
+        justify-content: space-around;
+        align-items: center;
+        vertical-align: middle;
+    }
+    .price-component{ 
+        box-sizing: border-box;
+        background-color: rgb(255, 255, 255);
+        width: 580px;
+        height: 640px;
+        padding: 60px 0 ;
+    }
+    .first{
+        z-index: 2;
+    }
+    .terceiro{
+        z-index: 3;
+    }
+    
+    .second{ /*Esse é o que fica em destaque*/
+        z-index: 5;
+        width: 600px;
+        height: 700px;
+        box-shadow: 0 0 3rem rgba(98, 96, 228, 0.226) ;
+        transition: ease 0.5s;
+    }
+    .second:hover{
+        box-shadow: 0 0 5rem rgba(98, 96, 228, 0.808) ;
+    }
+    .yes, .not {
+        margin: 50px;
+        border-radius: 0;
+        width: 70%;
+    }
+    .not{
+        background-color: rgb(170, 101, 135);
+    }
+    .yes{
+        background-color: hotpink;
+    }
+    .yes:hover{
+        transition: ease 0.5s;
+        background-color: rgb(68, 211, 49);
+        box-shadow: 0 0 7px rgb(68, 211, 49);
+    }
+    .price-price{
+        font-size: 22px;
+        font-weight: 600;
+        margin: 20px 0;
+    }
+    .item-price{
+        display: inline-block;
+        font-size: 12px;
+        font-weight: 600;
+        border-bottom: 2px solid rgb(209, 209, 209);
+        padding: 18px;
+    }
+    .not-have{
+        color: rgb(209, 209, 209);
+    }
+

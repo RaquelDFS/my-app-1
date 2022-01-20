@@ -1,0 +1,113 @@
+.colz{
+    display: inline-block;
+    background-image: url("../../assets/Home/icon-flower.png");
+    height: 70px;
+    width: 70px;
+    background-size: contain;
+    background-repeat: none;
+    background-position: center;
+}
+
+.profile-container{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    height: 10%;
+    min-height: fit-content;
+    min-width: 980px;
+}
+.profile-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8em;
+    max-width: 1015px;
+}
+.profile-details{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 980px;
+}
+.profile-details-role{
+    margin-bottom: 2em;
+}
+.profile-options{
+    justify-content: space-between;
+    width: auto;
+}
+.profile-picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 380px;
+    width: 380px;
+}
+.profile-picture-background{
+    background-image: url("../../assets/Home/profile-pt.png");
+    background-size: cover;
+    background-repeat: none;
+    height: 380px;
+    width: 380px;
+}
+
+/*@media screen and (max-width:1110px){
+    .profile-picture{
+            margin: 0 10px 0 80px;
+    }
+    .profile-detail-name {
+        font-size: 20px;
+    }
+    .profile-options .btn {
+        width: 120px;
+        padding: 11px 0;
+        z-index: 700;
+    }
+    .profile-details{
+        padding-left: 15rem;
+    }
+ 
+}
+@media screen and (max-width:910px){
+    .profile-picture{
+        height: 320px;
+        width: 320px;
+            margin: 0 0px 0 4px;
+    }
+    .colz, .profile-details-role{
+        margin: 5px 2rem;
+    }
+    .profile-options{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:810px){
+    .profile-picture{
+        margin: 0 !important;
+    }
+    .profile-parent{
+        flex-direction: column-reverse;
+        margin: 40px 0 0 0 ;
+    }
+    .profile-options{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .profile-details{
+        margin: 25px 0 0;
+    }
+ 
+    .profile-details-role{
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+
+    } 
+}
+*/
